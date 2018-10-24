@@ -1,26 +1,8 @@
 # Tests
+file(GLOB TEST_FILES ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
 
-file(GLOB TEST_FILES_0 ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
-file(GLOB TEST_FILES_1 ${CMAKE_CURRENT_SOURCE_DIR}/generic_router/*.cpp)
-file(GLOB TEST_FILES_2 ${CMAKE_CURRENT_SOURCE_DIR}/protocols/*.cpp)
-file(GLOB TEST_FILES_3 ${CMAKE_CURRENT_SOURCE_DIR}/sockets/*.cpp)
+add_executable(${PROJECT_NAME_LOWER}-tests ${TEST_FILES})
 
+target_link_libraries(${PROJECT_NAME_LOWER}-tests ${PROJECT_NAME_LOWER} GTest::gtest)
 
-add_executable(${CMAKE_PROJECT_NAME_LOWER}-tests ${TEST_FILES_0} ${TEST_FILES_1} ${TEST_FILES_2} ${TEST_FILES_3} )
-target_include_directories(${CMAKE_PROJECT_NAME_LOWER}-tests PUBLIC ${GTEST_INCLUDE_DIRS})
-
-set(${CMAKE_PROJECT_NAME_LOWER}-LIBRARIES ${CMAKE_PROJECT_NAME_LOWER}
-		${GTEST_LIBRARIES}
-		configuration
-		common
-		cciapi
-		SystemC::systemc)
-
-# Disable SPDLog with VS 2012
-if(NOT (MSVC AND MSVC_VERSION EQUAL 1700))
-	list(APPEND ${CMAKE_PROJECT_NAME_LOWER}-LIBRARIES spdlog::spdlog)
-endif()
-
-target_link_libraries(${CMAKE_PROJECT_NAME_LOWER}-tests ${${CMAKE_PROJECT_NAME_LOWER}-LIBRARIES})
-
-add_test(NAME ${CMAKE_PROJECT_NAME}Tests COMMAND ${CMAKE_PROJECT_NAME_LOWER}-tests)
+add_test(NAME ${PROJECT_NAME}Tests COMMAND ${PROJECT_NAME_LOWER}-tests)
