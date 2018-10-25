@@ -11,7 +11,7 @@
 #define TESTS_CONVENIENT_SOCKETS_TEST_CLASSES_H_
 
 #include <tlm>
-#include <HVCommon>
+#include <hv/common.h>
 #include <utils/tlm-2/sockets/simple_initiator_socket.h>
 #include <utils/tlm-2/sockets/simple_target_socket.h>
 #include <utils/tlm-2/sockets/simple_bidirectional_socket.h>

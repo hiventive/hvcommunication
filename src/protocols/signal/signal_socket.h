@@ -12,9 +12,10 @@
 #ifndef HV_PROTOCOLS_SIGNAL_SIGNAL_SOCKET_H_
 #define HV_PROTOCOLS_SIGNAL_SIGNAL_SOCKET_H_
 
-#include <HVCommon>
-#include "core/tlm-2/sockets/initiator_socket.h"
-#include "core/tlm-2/sockets/target_socket.h"
+#include <hv/common.h>
+
+#include "../../core/tlm-2/sockets/initiator_socket.h"
+#include "../../core/tlm-2/sockets/target_socket.h"
 #include "signal_protocol.h"
 
 namespace hv {

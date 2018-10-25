@@ -12,10 +12,10 @@
 #ifndef HV_PROTOCOLS_I2C_I2C_SIMPLE_SOCKET_H_
 #define HV_PROTOCOLS_I2C_I2C_SIMPLE_SOCKET_H_
 
-#include "protocols/i2c/i2c_protocol.h"
-#include "utils/tlm-2/sockets/simple_initiator_socket.h"
-#include "utils/tlm-2/sockets/simple_target_socket.h"
-#include "core/tlm-2/sockets/addressable_socket.h"
+#include "../../protocols/i2c/i2c_protocol.h"
+#include "../../utils/tlm-2/sockets/simple_initiator_socket.h"
+#include "../../utils/tlm-2/sockets/simple_target_socket.h"
+#include "../../core/tlm-2/sockets/addressable_socket.h"
 
 namespace hv {
 namespace communication {

@@ -10,8 +10,8 @@
 #ifndef HV_UTILS_TLM_2_SOCKETS_MULTI_TARGET_SOCKET_H_
 #define HV_UTILS_TLM_2_SOCKETS_MULTI_TARGET_SOCKET_H_
 
-#include "core/tlm-2/sockets/initiator_socket.h"
-#include "core/tlm-2/sockets/target_socket.h"
+#include "../../../core/tlm-2/sockets/initiator_socket.h"
+#include "../../../core/tlm-2/sockets/target_socket.h"
 #include "multi_socket_callback_binder_fw.h"
 
 

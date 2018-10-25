@@ -13,9 +13,10 @@
 #ifndef HV_CORE_TLM_2_SOCKETS_ADDRESSABLE_SOCKET_H_
 #define HV_CORE_TLM_2_SOCKETS_ADDRESSABLE_SOCKET_H_
 
-#include <location/location.h>
-#include <HVCommon>
-#include <HVConfiguration>
+#include <hv/common.h>
+#include <hv/configuration.h>
+
+#include "../../../location/location.h"
 
 namespace hv {
 namespace communication {

@@ -8,7 +8,7 @@
  *
  * UART payload
  */
-#include "protocols/uart/uart_payload.h"
+#include "uart_payload.h"
 
 using namespace ::hv::communication::tlm2;
 using namespace ::hv::common;

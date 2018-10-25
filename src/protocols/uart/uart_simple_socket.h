@@ -12,8 +12,9 @@
 #ifndef HV_PROTOCOLS_UART_UART_SIMPLE_SOCKET_H_
 #define HV_PROTOCOLS_UART_UART_SIMPLE_SOCKET_H_
 
-#include <HVCommon>
-#include "utils/tlm-2/sockets/simple_bidirectional_socket.h"
+#include <hv/common.h>
+
+#include "../../utils/tlm-2/sockets/simple_bidirectional_socket.h"
 #include "uart_protocol.h"
 
 namespace hv {

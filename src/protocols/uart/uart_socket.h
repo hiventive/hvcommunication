@@ -13,11 +13,12 @@
 #define HV_CORE_TLM_2_PROTOCOLS_UART_UART_SOCKET_H_
 
 #include <tlm>
-#include <HVCommon>
-#include <HVConfiguration>
-#include "core/tlm-2/sockets/bidirectional_socket.h"
-#include "protocols/uart/uart_payload.h"
-#include "protocols/uart/uart_protocol.h"
+#include <hv/common.h>
+#include <hv/configuration.h>
+
+#include "../../core/tlm-2/sockets/bidirectional_socket.h"
+#include "uart_payload.h"
+#include "uart_protocol.h"
 
 #define UART_DEFAULT_VALID_BITS 8
 #define UART_DEFAULT_STOP_BITS 1

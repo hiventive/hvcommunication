@@ -14,9 +14,9 @@
 #ifndef SRC_CORE_TLM_2_PROTOCOL_ADAPTER_PROTOCOL_ADAPTER_H_
 #define SRC_CORE_TLM_2_PROTOCOL_ADAPTER_PROTOCOL_ADAPTER_H_
 
-#include "core/tlm-2/sockets/initiator_socket.h"
-#include "core/tlm-2/sockets/target_socket.h"
-#include "core/tlm-2/protocol_adapter/protocol_converter_if.h"
+#include "../../../core/tlm-2/sockets/initiator_socket.h"
+#include "../../../core/tlm-2/sockets/target_socket.h"
+#include "../../../core/tlm-2/protocol_adapter/protocol_converter_if.h"
 
 namespace hv {
 namespace communication {

@@ -7,7 +7,7 @@
  * @brief Hiventive TLM Extension Mechanism
  */
 
-#include <core/tlm-2/base_payload/extensions.h>
+#include "../../../core/tlm-2/base_payload/extensions.h"
 
 using namespace ::hv::common;
 

@@ -12,8 +12,8 @@
 #ifndef HV_PROTOCOLS_I2C_I2C_PAYLOAD_H_
 #define HV_PROTOCOLS_I2C_I2C_PAYLOAD_H_
 
-#include "core/tlm-2/base_payload/base_payload.h"
-#include "location/addressing_payload_if.h"
+#include "../../core/tlm-2/base_payload/base_payload.h"
+#include "../../location/addressing_payload_if.h"
 
 namespace hv {
 namespace communication {

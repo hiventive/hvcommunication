@@ -13,8 +13,9 @@
 #define HV_PROTOCOLS_MEMORY_MAPPED_MEMORY_MAPPED_PAYLOAD_H_
 
 #include <tlm_core/tlm_2/tlm_generic_payload/tlm_generic_payload.h>
-#include <core/tlm-2/base_payload/base_payload.h>
-#include "location/addressing_payload_if.h"
+
+#include "../../core/tlm-2/base_payload/base_payload.h"
+#include "../../location/addressing_payload_if.h"
 
 namespace hv {
 namespace communication {

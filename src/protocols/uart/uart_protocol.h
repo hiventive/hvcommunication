@@ -12,8 +12,8 @@
 #ifndef HV_CORE_TLM_2_PROTOCOLS_UART_UART_PROTOCOL_H_
 #define HV_CORE_TLM_2_PROTOCOLS_UART_UART_PROTOCOL_H_
 
-#include"core/tlm-2/base_protocol/base_protocol.h"
-#include"protocols/uart/uart_payload.h"
+#include "../../core/tlm-2/base_protocol/base_protocol.h"
+#include "uart_payload.h"
 
 namespace hv {
 namespace communication {

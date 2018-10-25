@@ -13,7 +13,7 @@
 #include <gtest/gtest.h>
 #include <systemc>
 #include <tlm>
-#include <HVCommon>
+#include <hv/common.h>
 #include "protocols/irq/irq_socket.h"
 
 #include "irq_protocol_test_classes.h"

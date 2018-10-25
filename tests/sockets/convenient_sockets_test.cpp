@@ -11,7 +11,7 @@
 #include <gtest/gtest.h>
 #include <systemc>
 #include <tlm>
-#include <HVCommon>
+#include <hv/common.h>
 #include "convenient_sockets_test_classes.h"
 
 using namespace ::hv::communication::tlm2;

@@ -12,8 +12,8 @@
 #ifndef HV_PROTOCOLS_I2C_I2C_ROUTER_H_
 #define HV_PROTOCOLS_I2C_I2C_ROUTER_H_
 
-#include "protocols/i2c/i2c_protocol.h"
-#include "utils/tlm-2/routing/generic_router.h"
+#include "../../protocols/i2c/i2c_protocol.h"
+#include "../../utils/tlm-2/routing/generic_router.h"
 
 namespace hv {
 namespace communication {

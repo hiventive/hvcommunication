@@ -13,16 +13,17 @@
 #define HV_PROTOCOLS_MEMORY_MAPPED_SIMPLE_MEMORY_MAPPED_SOCKET_H_
 
 #include <tlm>
-#include <HVCommon>
-#include <HVConfiguration>
-#include "utils/tlm-2/sockets/simple_bidirectional_socket.h"
-#include "utils/tlm-2/sockets/simple_initiator_socket.h"
-#include "utils/tlm-2/sockets/simple_target_socket.h"
-#include "core/tlm-2/sockets/addressable_socket.h"
-#include "protocols/memory_mapped/memory_mapped_payload.h"
-#include "protocols/memory_mapped/memory_mapped_protocol.h"
-#include "protocols/memory_mapped/memory_mapped_protocol_converters.h"
-#include "core/tlm-2/protocol_adapter/protocol_adapter.h"
+#include <hv/common.h>
+#include <hv/configuration.h>
+
+#include "../../utils/tlm-2/sockets/simple_bidirectional_socket.h"
+#include "../../utils/tlm-2/sockets/simple_initiator_socket.h"
+#include "../../utils/tlm-2/sockets/simple_target_socket.h"
+#include "../../core/tlm-2/sockets/addressable_socket.h"
+#include "../../protocols/memory_mapped/memory_mapped_payload.h"
+#include "../../protocols/memory_mapped/memory_mapped_protocol.h"
+#include "../../protocols/memory_mapped/memory_mapped_protocol_converters.h"
+#include "../../core/tlm-2/protocol_adapter/protocol_adapter.h"
 
 namespace hv {
 namespace communication {

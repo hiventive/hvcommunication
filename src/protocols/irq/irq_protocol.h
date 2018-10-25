@@ -12,8 +12,8 @@
 #ifndef HV_CORE_TLM_2_PROTOCOLS_IRQ_PROTOCOL_H_
 #define HV_CORE_TLM_2_PROTOCOLS_IRQ_PROTOCOL_H_
 
-#include"core/tlm-2/base_protocol/base_protocol.h"
-#include"protocols/irq/irq_payload.h"
+#include "../../core/tlm-2/base_protocol/base_protocol.h"
+#include "../../protocols/irq/irq_payload.h"
 
 namespace hv {
 namespace communication {

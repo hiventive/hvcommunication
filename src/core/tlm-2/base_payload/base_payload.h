@@ -15,12 +15,11 @@
 #ifndef HV_TLM_2_PAYLOAD_BASE_PAYLOAD_H
 #define HV_TLM_2_PAYLOAD_BASE_PAYLOAD_H
 
-#include <core/tlm-2/base_payload/extensions.h>
-#include <core/tlm-2/base_payload/extensions.h>
-#include <cstdlib>
 #include <typeinfo>
 #include <vector>
-#include <HVCommon>
+#include <hv/common.h>
+
+#include "../../../core/tlm-2/base_payload/extensions.h"
 
 namespace hv {
 namespace communication {

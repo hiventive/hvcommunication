@@ -15,8 +15,8 @@
 #include <cstdlib>
 #include <iostream>
 #include <string>
-#include "core/tlm-2/sockets/initiator_socket.h"
-#include "core/tlm-2/sockets/target_socket.h"
+#include "../../core/tlm-2/sockets/initiator_socket.h"
+#include "../../core/tlm-2/sockets/target_socket.h"
 
 namespace hv {
 namespace communication {

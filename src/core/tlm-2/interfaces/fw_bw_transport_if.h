@@ -10,9 +10,10 @@
 #ifndef HV_FW_BW_IF_H_
 #define HV_FW_BW_IF_H_
 
-#include <HVCommon>
-#include <core/tlm-2/base_protocol/base_protocol.h>
+#include <hv/common.h>
 #include <tlm>
+
+#include "../../../core/tlm-2/base_protocol/base_protocol.h"
 
 namespace hv {
 namespace communication {

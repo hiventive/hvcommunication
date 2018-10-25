@@ -13,13 +13,14 @@
 #ifndef HV_CORE_TLM_2_SOCKETS_BIDIRECTIONAL_SOCKET_H_
 #define HV_CORE_TLM_2_SOCKETS_BIDIRECTIONAL_SOCKET_H_
 
-#include "core/tlm-2/sockets/initiator_socket.h"
-#include "core/tlm-2/sockets/target_socket.h"
 #include <systemc>
 #include <tlm>
-#include <HVCommon>
-#include <core/tlm-2/base_protocol/base_protocol.h>
-#include "core/tlm-2/interfaces/fw_bw_transport_if.h"
+#include <hv/common.h>
+
+#include "../../../core/tlm-2/sockets/initiator_socket.h"
+#include "../../../core/tlm-2/sockets/target_socket.h"
+#include "../../../core/tlm-2/base_protocol/base_protocol.h"
+#include "../../../core/tlm-2/interfaces/fw_bw_transport_if.h"
 
 namespace hv {
 namespace communication {

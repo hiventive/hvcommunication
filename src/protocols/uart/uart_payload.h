@@ -15,7 +15,8 @@
 #define HV_PROTOCOLS_UART_PAYLOAD_H_
 
 #include <tlm>
-#include <core/tlm-2/base_payload/base_payload.h>
+
+#include "../../core/tlm-2/base_payload/base_payload.h"
 
 namespace hv {
 namespace communication {

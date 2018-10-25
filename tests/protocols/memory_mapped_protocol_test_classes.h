@@ -16,7 +16,7 @@
 #include <systemc>
 #include <tlm_utils/simple_initiator_socket.h>
 #include <tlm_utils/simple_target_socket.h>
-#include <HVCommon>
+#include <hv/common.h>
 #include <gtest/gtest.h>
 
 #include "protocols/memory_mapped/memory_mapped_router.h"

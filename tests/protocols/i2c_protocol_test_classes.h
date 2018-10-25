@@ -13,7 +13,7 @@
 #include <cstdlib>
 #include <iostream>
 #include <ctime>
-#include <HVCommon>
+#include <hv/common.h>
 
 #include "protocols/i2c/i2c_socket.h"
 #include "protocols/i2c/i2c_router.h"

@@ -12,9 +12,10 @@
 #ifndef HV_PROTOCOLS_MEMORY_MAPPED_MEMORY_MAPPED_ROUTER_H_
 #define HV_PROTOCOLS_MEMORY_MAPPED_MEMORY_MAPPED_ROUTER_H_
 
-#include "protocols/memory_mapped/memory_mapped_protocol.h"
-#include "utils/tlm-2/routing/generic_router.h"
-#include <HVConfiguration>
+#include <hv/configuration.h>
+
+#include "../../protocols/memory_mapped/memory_mapped_protocol.h"
+#include "../../utils/tlm-2/routing/generic_router.h"
 
 namespace hv {
 namespace communication {

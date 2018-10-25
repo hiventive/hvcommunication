@@ -13,8 +13,8 @@
 #define SRC_PROTOCOLS_MEMORY_MAPPED_MEMORY_MAPPED_PROTOCOL_CONVERTERS_H_
 
 #include <tlm>
-#include "core/tlm-2/protocol_adapter/protocol_converter_if.h"
-#include "protocols/memory_mapped/memory_mapped_protocol.h"
+#include "../../core/tlm-2/protocol_adapter/protocol_converter_if.h"
+#include "../../protocols/memory_mapped/memory_mapped_protocol.h"
 
 namespace hv {
 namespace communication {

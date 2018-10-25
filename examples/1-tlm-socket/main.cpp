@@ -1,6 +1,6 @@
 #include <iostream>
 #include <systemc>
-#include <HVConfiguration>
+#include <hv/configuration.h>
 
 #include "tlm-initiator.h"
 #include "tlm-target.h"

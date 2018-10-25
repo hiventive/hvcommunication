@@ -11,7 +11,7 @@
 #include <gtest/gtest.h>
 #include <systemc>
 #include <tlm>
-#include <HVCommon>
+#include <hv/common.h>
 #include "core/tlm-2/sockets/bidirectional_socket.h"
 #include "bidirectional_socket_test_classes.h"
 

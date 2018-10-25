@@ -13,13 +13,14 @@
 #define HV_PROTOCOLS_I2C_I2C_SOCKET_H_
 
 #include <tlm>
-#include <HVCommon>
-#include <HVConfiguration>
-#include "core/tlm-2/sockets/initiator_socket.h"
-#include "core/tlm-2/sockets/addressable_socket.h"
-#include "core/tlm-2/sockets/target_socket.h"
-#include "protocols/i2c/i2c_payload.h"
-#include "protocols/i2c/i2c_protocol.h"
+#include <hv/common.h>
+#include <hv/configuration.h>
+
+#include "../../core/tlm-2/sockets/initiator_socket.h"
+#include "../../core/tlm-2/sockets/addressable_socket.h"
+#include "../../core/tlm-2/sockets/target_socket.h"
+#include "../../protocols/i2c/i2c_payload.h"
+#include "../../protocols/i2c/i2c_protocol.h"
 
 namespace hv {
 namespace communication {

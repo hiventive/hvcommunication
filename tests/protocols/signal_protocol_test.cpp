@@ -11,7 +11,7 @@
 #include <gtest/gtest.h>
 #include <systemc>
 #include <tlm>
-#include <HVCommon>
+#include <hv/common.h>
 #include "protocols/signal/signal_socket.h"
 
 #include "signal_protocol_test_classes.h"

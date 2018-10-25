@@ -14,10 +14,11 @@
 #define HV_UTILS_SOCKETS_SIMPLE_INITIATOR_SOCKET_H_
 
 #include <tlm>
-#include <HVCommon>
-#include "utils/tlm-2/sockets/simple_socket_base.h"
-#include "core/tlm-2/sockets/initiator_socket.h"
-#include "core/tlm-2/interfaces/fw_bw_transport_if.h"
+#include <hv/common.h>
+
+#include "../../../utils/tlm-2/sockets/simple_socket_base.h"
+#include "../../../core/tlm-2/sockets/initiator_socket.h"
+#include "../../../core/tlm-2/interfaces/fw_bw_transport_if.h"
 
 namespace hv {
 namespace communication {

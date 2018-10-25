@@ -13,12 +13,13 @@
 #define HV_CORE_TLM_2_PROTOCOLS_IRQ_SOCKET_H_
 
 #include <tlm>
-#include <HVCommon>
-#include <HVConfiguration>
-#include "core/tlm-2/sockets/initiator_socket.h"
-#include "core/tlm-2/sockets/target_socket.h"
-#include "protocols/irq/irq_payload.h"
-#include "protocols/irq/irq_protocol.h"
+#include <hv/common.h>
+#include <hv/configuration.h>
+
+#include "../../core/tlm-2/sockets/initiator_socket.h"
+#include "../../core/tlm-2/sockets/target_socket.h"
+#include "../../protocols/irq/irq_payload.h"
+#include "../../protocols/irq/irq_protocol.h"
 
 namespace hv {
 namespace communication {

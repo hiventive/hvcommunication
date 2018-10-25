@@ -10,8 +10,8 @@
 #ifndef HV_CORE_TLM_2_SOCKETS_LOCATION_H_
 #define HV_CORE_TLM_2_SOCKETS_LOCATION_H_
 
-#include <HVConfiguration>
-#include <HVCommon>
+#include <hv/configuration.h>
+#include <hv/common.h>
 
 namespace hv {
 namespace communication {

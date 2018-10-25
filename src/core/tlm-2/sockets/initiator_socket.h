@@ -12,8 +12,6 @@
 #ifndef HV_CORE_TLM_2_SOCKETS_INITIATOR_SOCKET_H_
 #define HV_CORE_TLM_2_SOCKETS_INITIATOR_SOCKET_H_
 
-#include "core/tlm-2/base_protocol/base_protocol.h"
-#include "core/tlm-2/interfaces/fw_bw_transport_if.h"
 #include <tlm>
 
 #include "base_socket.h"

@@ -13,7 +13,7 @@
 #include <gtest/gtest.h>
 #include <systemc>
 #include <tlm>
-#include <HVCommon>
+#include <hv/common.h>
 #include "protocols/uart/uart_socket.h"
 
 #include "uart_protocol_test_classes.h"

@@ -12,9 +12,10 @@
 #ifndef HV_CORE_TLM_2_PROTOCOLS_I2C_I2C_PROTOCOL_H_
 #define HV_CORE_TLM_2_PROTOCOLS_I2C_I2C_PROTOCOL_H_
 
-#include <HVCommon>
-#include"core/tlm-2/base_protocol/base_protocol.h"
-#include"protocols/i2c/i2c_payload.h"
+#include <hv/common.h>
+
+#include "../../core/tlm-2/base_protocol/base_protocol.h"
+#include "../../protocols/i2c/i2c_payload.h"
 
 namespace hv {
 namespace communication {

@@ -12,7 +12,7 @@
 
 #include <systemc>
 #include <tlm>
-#include <HVCommon>
+#include <hv/common.h>
 #include "core/tlm-2/sockets/initiator_socket.h"
 #include "core/tlm-2/sockets/target_socket.h"
 #include "core/tlm-2/sockets/bidirectional_socket.h"

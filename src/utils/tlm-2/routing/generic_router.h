@@ -12,12 +12,13 @@
 
 #include <algorithm>
 #include <map>
-#include <HVCommon>
-#include <HVConfiguration>
+#include <hv/common.h>
+#include <hv/configuration.h>
 #include <systemc>
-#include "utils/tlm-2/sockets/multi_initiator_socket.h"
-#include "utils/tlm-2/sockets/multi_target_socket.h"
-#include "location/location.h"
+
+#include "../../../utils/tlm-2/sockets/multi_initiator_socket.h"
+#include "../../../utils/tlm-2/sockets/multi_target_socket.h"
+#include "../../../location/location.h"
 #include "payload_address_handler.h"
 
 namespace hv {
