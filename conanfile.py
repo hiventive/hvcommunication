@@ -15,6 +15,7 @@ class HVCommunicationConan(ConanFile):
     no_copy_source = True # TODO: remove that (GLOB_RECURSIVE issue)
     exports = "settings.yml"
     exports_sources = "src/*", "CMakeLists.txt", "cmake/*"
+    short_paths = True
     requires = "gtest/1.8.0@hiventive/stable", \
                "hvconfiguration/0.2.0@hiventive/testing", \
 			   "hvcommon/0.3.0@hiventive/testing"
