@@ -1,0 +1,10 @@
+# Settings
+
+project:
+  name: Communication
+  version: 0.1.0
+
+conan:
+  name: communication
+  channel: testing
+  username: hiventive
