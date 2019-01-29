@@ -10,8 +10,8 @@
 #ifndef HV_CORE_TLM_2_SOCKETS_BASE_SOCKET_H_
 #define HV_CORE_TLM_2_SOCKETS_BASE_SOCKET_H_
 
-#include<HVCommon>
-#include<vector>
+#include <hv/common.h>
+#include <vector>
 
 namespace hv {
 namespace communication {
