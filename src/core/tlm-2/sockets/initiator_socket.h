@@ -14,6 +14,8 @@
 
 #include <tlm>
 
+#include "../../../core/tlm-2/base_protocol/base_protocol.h"
+#include "../../../core/tlm-2/interfaces/fw_bw_transport_if.h"
 #include "base_socket.h"
 
 namespace hv {
