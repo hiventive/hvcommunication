@@ -80,7 +80,7 @@ public:
 	 * Fails if current location has no size
 	 */
 	size_type getSize() const {
-		HV_ASSERT(mHasSize, "Impossible to get location size (not applicable)")
+		HV_ASSERT(mHasSize, "Impossible to get location size (not applicable)");
 		return mSize;
 	}
 

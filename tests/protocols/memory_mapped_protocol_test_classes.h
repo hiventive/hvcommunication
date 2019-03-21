@@ -196,7 +196,7 @@ protected:
 					<< ": Received read request of size "
 					<< trans.getDataLength() << " at relative address "
 					<< destination << std::endl;
-			HV_ASSERT(trans.getDataLength() == 4u, "Length error")
+			HV_ASSERT(trans.getDataLength() == 4u, "Length error");
 //			std::cout << "\t" << this->name() << ": Value is "
 //					<< ::hv::common::hvuint32_t(mainRF(destination))
 //					<< std::endl;
@@ -214,7 +214,7 @@ protected:
 					<< ": Received write request of size "
 					<< trans.getDataLength() << " at relative address "
 					<< destination << std::endl;
-			HV_ASSERT(trans.getDataLength() == 4u, "Length error")
+			HV_ASSERT(trans.getDataLength() == 4u, "Length error");
 			// Writing data
 			std::cout << "\t" << this->name() << ": Writing data..."
 					<< std::endl;

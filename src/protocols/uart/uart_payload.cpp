@@ -46,9 +46,9 @@ UartResponseStatus UartPayload::getResponseStatus() const {
 }
 
 bool UartPayload::getParityBit(const std::size_t &ind) const {
-	HV_ASSERT(mParityBits != nullptr, "No parity bits defined")
+	HV_ASSERT(mParityBits != nullptr, "No parity bits defined");
 	HV_ASSERT(ind < mLength,
-			"Trying to retrieve a parity bit out of data scope")
+			"Trying to retrieve a parity bit out of data scope");
 	return mParityBits[ind];
 }
 
