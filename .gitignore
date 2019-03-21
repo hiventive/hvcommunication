@@ -102,6 +102,7 @@ conanbuildinfo.txt
 conanbuildinfo.cmake
 conaninfo.txt
 conanws.yml
+graph_info.json
 
 # Mongo Explorer plugin:
 .idea/**/mongoSettings.xml
