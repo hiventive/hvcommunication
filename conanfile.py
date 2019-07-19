@@ -18,7 +18,7 @@ class HVCommunicationConan(ConanFile):
     short_paths = True
     requires = "gtest/1.8.0@hiventive/stable", \
                "hvconfiguration/[>=0.2.0,<1]@hiventive/testing", \
-			   "hvcommon/[>=0.3.0,<1]@hiventive/testing"
+               "hvcommon/[>=0.3.0,<1]@hiventive/testing"
 
     def _configure_cmake(self):
         cmake = CMake(self)
